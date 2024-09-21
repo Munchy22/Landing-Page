@@ -81,6 +81,7 @@ a {
     margin-right: 50px;
     padding-top: 0;
     max-width: 800px;
+    font-size: 18px;
 }
 
 .hero-content {
@@ -89,9 +90,15 @@ a {
     justify-content: center;
 }
 
-img {
+.info img {
+    display: flex;
     width: 50vh;
     height: 50vh;
+    border: 2px solid #1f2937;
+}
+
+.info {
+    display: flex;
 }
 
 h1 {
@@ -114,16 +121,13 @@ button { /*Needs fixed*/
     font-size: 32px;
     font-weight: 900;
     color: #1f2937;
+    text-align: center;
 }
 
-.info {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.text {
-    border: 2px solid #3882f6;
+#quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
 }
 
 .quote {
@@ -134,14 +138,41 @@ button { /*Needs fixed*/
     background-color: #e5E7EB;
 }
 
-.call {
+footer/*Ferdinand Quote*/ {
     display: flex;
-    margin: 88px;
-    background-color: #3882f6;
-    text-align: center;
+    justify-content: flex-end;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 600;
 }
 
-.footer {
+.call {
+    display: flex;
+    margin: 75px;
+    height: 150px;
+    width: auto;
+    background-color: #3882f6;
+    color: #f9faf8;
+    text-align: center;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0;
+}
+
+.sign-up {
+    border: 2px solid white;
+    background-color: ;
+}
+
+.footer /*Actual Footer*/{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -149,10 +180,4 @@ button { /*Needs fixed*/
     color: white;
     height: 100%;
     padding: 24px;
-}
-
-#quote {
-    font-size: 32px;
-    font-style: italic;
-    color: #1f2937;
 }
